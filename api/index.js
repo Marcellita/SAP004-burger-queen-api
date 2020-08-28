@@ -1,7 +1,7 @@
 import express from 'express'
 import bodyParser from 'body-parser'
 import productRoutes from './server/src/routes/ProductRoutes';
-
+import orderRoutes from './server/src/routes/OrderRoutes';
 
 const app = express()
 app.use(bodyParser.json())
